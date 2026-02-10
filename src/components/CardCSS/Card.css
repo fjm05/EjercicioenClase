@@ -1,0 +1,32 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.25rem;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.card__nombre {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+.card__precio {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2563eb;
+  margin-bottom: 0.5rem;
+}
+
+.card__descripcion {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+.card__image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
